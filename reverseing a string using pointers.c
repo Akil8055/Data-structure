@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	char string[25],*s,a;
+	char string[100],*s,a;
 	int i,j,l;
 	printf("enter a string =");
 	gets(string);
