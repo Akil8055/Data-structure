@@ -9,6 +9,6 @@ printf("values before swapping a=%d , b=%d\n",a,b);
 *p=*p+*x;
 *x=*p-*x;
 *p=*p-*x;
-printf("values before swapping a=%d , b=%d",a,b);
+printf("values after swapping a=%d , b=%d",a,b);
 return 0;
 }
