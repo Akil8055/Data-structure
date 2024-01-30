@@ -5,6 +5,7 @@ int main()
 	printf("enter number of elements you want to enter in array = ");
 	scanf("%d",&n);
 	int a[n];
+	printf("enter array elements");
 	for(i=0;i<n;i++)
     scanf("%d",&a[i]);
     int *p=&a;
